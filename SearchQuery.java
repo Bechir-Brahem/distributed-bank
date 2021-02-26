@@ -8,7 +8,7 @@ public class SearchQuery extends UnicastRemoteObject
 	// from its parent constructor 
 	SearchQuery() throws RemoteException 
 	{ 
-		super(); 
+		super(1099); 
 	} 
 
 	// Implementation of the query interface 

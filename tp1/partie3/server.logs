@@ -1,0 +1,6 @@
+2021/03/01 23:20:20 server created
+2021/03/01 23:20:20 invocation de creerCompte: nom: nom prenom: mo
+2021/03/01 23:20:20compte créé avec ID: 0
+2021/03/01 23:20:20invocation de transfert Entre Compte: 
+ID: 0 montant: -100 destination 0
+montant negatif

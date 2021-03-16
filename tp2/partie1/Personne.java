@@ -3,10 +3,10 @@ public class Personne implements Serializable {
   private String nom = "";
   private String prenom = "";
   private int taille = 0;
-  public CompteBancaire compte = new CompteBancaire("mf");
 
   public Personne(String nom, String prenom, int taille) {
-    this.nom = nom;this.taille = taille;
+    this.nom = nom;
+    this.taille = taille;
     this.prenom = prenom;
   }
   public String getNom() { return nom; }

@@ -1,7 +1,7 @@
 import java.io.*; 
 public class SerializerPersonne { 
       public static void main(String argv[]) {
-            Etudiant personne = new Etudiant("Dupond","Jean",175,1);    
+            Personne personne = new Personne("Dupond","Jean",175);    
             try { FileOutputStream fichier = new FileOutputStream("personne.ser");
             ObjectOutputStream oos = new ObjectOutputStream(fichier);
             oos.writeObject(personne);

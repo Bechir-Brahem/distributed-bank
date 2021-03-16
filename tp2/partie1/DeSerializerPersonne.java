@@ -11,8 +11,6 @@ public class DeSerializerPersonne {
             System.out.println("nom : " + personne.getNom());
             System.out.println("prenom : " + personne.getPrenom());
             System.out.println("taille : " + personne.getTaille());
-            System.out.println("address : " + personne.compte.adr.address);
-            System.out.println("name : " + personne.compte.name);
         } catch (java.io.IOException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
